@@ -1,0 +1,17 @@
+.content-with-fab {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+ion-fab {
+  position: fixed;
+  bottom: 60px; /* Ajusta la distancia desde la parte inferior */
+  right: 20px; /* Ajusta la distancia desde la parte derecha */
+  z-index: 100; /* Asegura que el FAB esté por encima de todo */
+}
+
+app-footer {
+  position: relative;
+  z-index: 0; /* Asegura que el footer esté por debajo del FAB */
+}

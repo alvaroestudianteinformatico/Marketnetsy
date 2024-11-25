@@ -1,0 +1,24 @@
+.welcome-message {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.welcome-message h2 {
+  font-size: 24px;
+  color: var(--ion-text-color);
+  margin-bottom: 10px;
+}
+
+
+.welcome-message p {
+  font-size: 16px;
+  color: var(--ion-text-color);
+}
+
+
+body.dark .welcome-message h2,
+body.dark .welcome-message p {
+  color: white;
+}
